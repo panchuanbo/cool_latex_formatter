@@ -1,6 +1,6 @@
 SPECIAL = ['&', '%', '$', '#', '_', '{', '}']
 
-def sanatize(x):
+def sanitize(x):
     x = str(x)
     if x in SPECIAL:
         return '\\' + x
