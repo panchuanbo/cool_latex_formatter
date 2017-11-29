@@ -1,5 +1,4 @@
-import latex
-import supersub
+import utils.supersub as ss
 
 x = raw_input("enter fun stuff: ")
-print('$$' + supersub.nester(x, '_') + '$$')
+print('$$' + ss.nester(x, '_') + '$$')
